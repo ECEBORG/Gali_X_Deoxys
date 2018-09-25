@@ -9,7 +9,7 @@
 * Mbed-cli (used to compile a mbed-os-powered projet):
     * Easiest (automatically):
         * Install pip
-        * Then, `pip install mbed-cli`
+        * Then, `sudo -H pip install mbed-cli`
     * Otherwise (manually):
         * https://github.com/ARMmbed/mbed-cli
     * Check it is working by executing `mbed -h`
