@@ -20,7 +20,7 @@
         * ~~MyBuffer        https://developer.mbed.org/users/sam_grove/code/Buffer/~~
         * ~~BufferedSerial  https://developer.mbed.org/users/sam_grove/code/BufferedSerial/~~
         * ~~PID             https://developer.mbed.org/users/aberk/code/PID/~~
-    * Add the compiler arm-none-eabi-gcc to your `$PATH` OR set its path in `mbed_settings.py`
+    * Add the compiler arm-none-eabi-gcc to your `$PATH` (added by default when the compiler is installed) OR set its path in `mbed_settings.py`
     * ~~Create an empty `.mbed` file (all required options will be passed through the command line when compiling)~~ Not really needed, this is just to make mbed-cli dont bother us.
     * Install mbed dependencies : `pip install -r mbed-os/requirements.txt`
     * Symlink `Galib/` and all the mbed libs you downloaded, or mbed-cli won't find them when compiling.
