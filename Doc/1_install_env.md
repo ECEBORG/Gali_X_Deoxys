@@ -2,7 +2,7 @@
 # Install and Configure the environnement
 
 * Compiler:
-    * https://launchpad.net/gcc-arm-embedded
+    * Install gcc-arm-embedded : https://launchpad.net/~team-gcc-arm-embedded/+archive/ubuntu/ppa
     * Some doc for windows: http://gnuarmeclipse.github.io/toolchain/install/
     * Check it is working by locating and executing `arm-none-eabi-gcc`
     * If you have some weird errors on Linux about "No such file or directory", run `apt-get install libc6-i386`
