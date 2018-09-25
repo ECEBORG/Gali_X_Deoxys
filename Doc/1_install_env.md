@@ -8,7 +8,7 @@
     * If you have some weird errors on Linux about "No such file or directory", run `apt-get install libc6-i386`
 * Mbed-cli (used to compile a mbed-os-powered projet):
     * Easiest (automatically):
-        * Install pip 'sudo apt-get install python-pip'
+        * Install pip `sudo apt-get install python-pip`
         * Then, `sudo -H pip install mbed-cli`
     * Otherwise (manually):
         * https://github.com/ARMmbed/mbed-cli
